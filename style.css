@@ -30,7 +30,7 @@ header nav{
 }
 
 header nav h1 a {
-  font-size: 28px;
+  font-size: 40px;
   font-weight: 600;
   color: white;
 }
@@ -70,13 +70,14 @@ header nav .tabs .tab.is-active a[data-switcher]{
 }
 
 main{
-  padding-left: 150px;
-  padding-right: 150px;
+  padding-left: 200px;
+  padding-right: 200px;
   
   
 }
 
 .pages{
+  
   margin-top: 100px;
   padding: 50px 30px;
   border-radius: 8px;
@@ -94,6 +95,7 @@ main{
 }
 
 .footer {
+  
 
   left: 0;
   bottom: 0;
@@ -115,11 +117,24 @@ h2 {
     padding-top: 20px;
 }
 
-img{
-  width:100px;
+.logoNavbar{
+  width:200px;
   height:auto;
   margin:10px;
 }
+
+.myClass {
+display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-right: 60px;
+}
+
+.popImg{
+    width:auto;
+  height: 100px;
+}
+
 
 .mailAuthor {
   margin:10px;
@@ -188,6 +203,13 @@ section2:nth-child(4){
   background: #fff0d1;
   border-radius: 8px;
 }
+
+section2:nth-child(6){
+  color: #42455a;
+  background: #fff0d1;
+  border-radius: 8px;
+}
+
 section2 .container{
   margin: 100px;
 }
@@ -232,6 +254,54 @@ section2 .text-container .text-box2{
 
 }
 
+section2 .text-container .text-box3{
+  margin: 20px;
+  padding: 100px;
+  background: #fff;
+    border-radius: 8px;
+
+}
+
+section2 .text-container .text-boxPink{
+  margin: 20px;
+  padding: 100px;
+  background: #ffe5f8;
+    border-radius: 8px;
+
+}
+
+section2 .text-container .text-boxBlue{
+  margin: 20px;
+  padding: 100px;
+  background: #aef4e3;
+    border-radius: 8px;
+
+}
+
+section2 .text-container .text-boxPurple{
+  margin: 20px;
+  padding: 100px;
+  background: #c1aef4;
+    border-radius: 8px;
+
+}
+
+section2 .text-container .text-boxRed{
+  margin: 20px;
+  padding: 100px;
+  background: #f4aeae;
+    border-radius: 8px;
+
+}
+
+section2 .text-container .text-boxSkyBlue{
+  margin: 20px;
+  padding: 100px;
+  background: #b8daff;
+    border-radius: 8px;
+
+}
+
 section2 .text-container .text-box h3{
   font-size: 30px;
   text-align: center;
@@ -267,4 +337,64 @@ section2 .text-container .text-box h3{
   color: white;
   font-size: 70px;
   
+}
+
+  /*
+circleRotation
+  */
+
+
+body {
+    height: 3000px;
+}
+
+.wrapper {
+  /*
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  */
+  margin-left: 20px;
+    margin-top: 20px;
+    position: fixed;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+#reload {
+    width: 100px;
+    height: auto;
+}
+
+  /*
+circleRotationFin
+  */
+
+.wrapper2 {
+  /*
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  */
+  margin-left: 20px;
+    margin-top: 100px;
+    position: fixed;
+}
+
+.circle2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(255, 115, 0);
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
 }
