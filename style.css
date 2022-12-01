@@ -135,7 +135,9 @@ h2 {
  
 }
 
-
+.imgFourPlan
+ width:auto;
+  height:500px;
 
 .myClass {
 display: flex;
