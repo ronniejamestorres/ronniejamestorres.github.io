@@ -123,6 +123,20 @@ h2 {
   margin:10px;
 }
 
+.logoPageFour{
+  width:500px;
+  height:auto;
+ 
+}
+
+.logoPageFourPlan{
+  width:1000px;
+  height:auto;
+ 
+}
+
+
+
 .myClass {
 display: flex;
   justify-content: center;
@@ -278,6 +292,14 @@ section2 .text-container .text-boxBlue{
 
 }
 
+section2 .text-container .text-boxSkyBlue{
+  margin: 20px;
+  padding: 100px;
+  background: #aeecf4;
+    border-radius: 8px;
+
+}
+
 section2 .text-container .text-boxPurple{
   margin: 20px;
   padding: 100px;
@@ -294,10 +316,10 @@ section2 .text-container .text-boxRed{
 
 }
 
-section2 .text-container .text-boxSkyBlue{
+section2 .text-container .text-boxBlack{
   margin: 20px;
   padding: 100px;
-  background: #b8daff;
+  background: #000000;
     border-radius: 8px;
 
 }
